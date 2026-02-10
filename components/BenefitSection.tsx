@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
 
@@ -12,7 +11,7 @@ const BenefitSection: React.FC = () => {
   ];
 
   return (
-    <section id="benefits" className="py-32 bg-white">
+    <section id="benefits" className="py-32 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex flex-col md:flex-row items-center gap-20">
           <div className="w-full md:w-5/12 order-2 md:order-1">
@@ -32,7 +31,7 @@ const BenefitSection: React.FC = () => {
                 {benefits.map((benefit, idx) => (
                   <li key={idx} className="flex items-start gap-4 group">
                     <div className="flex-shrink-0 text-blue-600 mt-1">
-                      <CheckCircle2 size={24} className="group-hover:scale-110 transition-transform" />
+                      <CheckCircle2 size={24} className="group-hover:scale-110 transition-transform duration-300" />
                     </div>
                     <span className="text-gray-700 font-medium text-lg leading-snug">{benefit}</span>
                   </li>
