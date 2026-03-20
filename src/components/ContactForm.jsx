@@ -50,9 +50,9 @@ const ContactForm = () => {
 
     try {
       await emailjs.send(
-        'service_i7rcbmc', 
-        'template_18hifwk', 
-        templateParams, 
+        'service_i7rcbmc',
+        'template_18hifwk',
+        templateParams,
         'FzzHQhVk1tMzm__2T'
       );
       alert('신청이 성공적으로 접수되었습니다. 곧 연락드리겠습니다!');
@@ -69,14 +69,14 @@ const ContactForm = () => {
     <section id="apply" className="py-24 px-4 bg-[#0f172a] text-white">
       <div className="max-w-3xl mx-auto text-center space-y-12">
         <div className="space-y-4">
-          <h2 className="text-4xl font-bold">N잡 파트너스 간편 지원</h2>
+          <h2 className="text-4xl font-bold">N잡 파트너스 간편지원</h2>
           <p className="text-gray-400">성함과 연락처만 남겨주시면 자세한 안내를 위해 상담원이 연락드립니다.</p>
         </div>
         <form onSubmit={handleSubmit} className="bg-white/5 p-8 md:p-12 rounded-3xl border border-white/10 backdrop-blur-sm space-y-8 text-left">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-2">
               <label htmlFor="name" className="block text-sm font-bold text-gray-300">성함</label>
-              <input 
+              <input
                 type="text" id="name" placeholder="홍길동"
                 value={formData.name}
                 onChange={handleChange}
@@ -86,7 +86,7 @@ const ContactForm = () => {
             </div>
             <div className="space-y-2">
               <label htmlFor="phone" className="block text-sm font-bold text-gray-300">연락처</label>
-              <input 
+              <input
                 type="text" id="phone" placeholder="010-0000-0000"
                 value={formData.phone}
                 onChange={handleChange}
@@ -97,18 +97,18 @@ const ContactForm = () => {
           </div>
           <div className="space-y-4">
             <div className="flex gap-3 items-start cursor-pointer">
-              <input 
-                type="checkbox" id="agreed" 
+              <input
+                type="checkbox" id="agreed"
                 checked={formData.agreed}
                 onChange={handleChange}
-                className="mt-1 w-5 h-5 rounded border-white/10 text-blue-900 focus:ring-blue-500 bg-white/5" 
+                className="mt-1 w-5 h-5 rounded border-white/10 text-blue-900 focus:ring-blue-500 bg-white/5"
               />
               <label htmlFor="agreed" className="text-sm text-gray-400 leading-snug">
                 개인정보 수집 및 이용에 동의합니다. (수집항목: 성함, 연락처 / 목적: N잡 파트너 가입 상담 안내 / 보유기간: 상담 완료 후 1년)
               </label>
             </div>
-            <button 
-              type="submit" 
+            <button
+              type="submit"
               disabled={isSubmitting}
               className={`w-full py-5 rounded-xl text-lg font-bold transition-all transform hover:scale-[1.02] shadow-lg ${isSubmitting ? 'bg-gray-600' : 'bg-blue-900 hover:bg-blue-800'} text-white`}
             >
