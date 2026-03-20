@@ -116,7 +116,7 @@ const ContactForm = () => {
                 전자적 파일 형태로 저장된 개인정보는 기록을 복원할 수 없는 기술적 방법을 사용하여 영구 삭제합니다.<br /><br />
                 개인정보 보호 담당부서<br />
                 부서: MP총괄<br />
-                연락처: 02-1588-0306
+                연락처: 1588-0306
               </div>
             </div>
             <div className="flex gap-3 items-start cursor-pointer">
