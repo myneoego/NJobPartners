@@ -96,6 +96,29 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="space-y-4">
+            <div className="space-y-2">
+              <label className="block text-sm font-bold text-gray-300">개인정보 수집 및 이용 안내</label>
+              <div className="w-full h-32 px-4 py-3 bg-white/5 border border-white/10 rounded-xl overflow-y-auto text-xs text-gray-400 leading-relaxed scrollbar-thin scrollbar-thumb-white/20">
+                &lt;개인정보 수집 및 이용에 대한 안내&gt;<br /><br />
+                1. 개인정보 수집·이용 목적, 수집항목, 수집방법에 관한 사항<br />
+                가. 개인정보의 수집 및 이용목적<br />
+                글로벌금융판매는 N잡 파트너스 채용 상담을 위해 아래와 같은 최소한의 개인정보를 필수항목으로 수집하고 있습니다.<br />
+                나. 수집하는 개인정보 항목<br />
+                ο 필수항목 : 이름, 휴대폰 번호<br />
+                ο 기타 : 서비스 이용과정이나 사업처리 과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.(쿠키, 방문 일시, 서비스 이용 기록)<br />
+                다. 개인정보 수집방법<br />
+                N잡 파트너스 채용 상담 문의 시 입력란에 직접 입력하는 방식<br /><br />
+                2. 개인정보의 보유 및 이용기간, 파기절차 및 방법<br />
+                가. 보유 및 이용기간<br />
+                개인정보의 보유 및 이용 기간 : 동의일로부터 1년<br />
+                (단, 이용자가 개인정보의 수집·이용 등에 대한 동의 철회, 개인정보 삭제 또는 파기 요청이 있는 경우 해당 개인정보를 즉시 파기합니다.)<br />
+                나. 파기절차 및 방법<br />
+                전자적 파일 형태로 저장된 개인정보는 기록을 복원할 수 없는 기술적 방법을 사용하여 영구 삭제합니다.<br /><br />
+                개인정보 보호 담당부서<br />
+                부서: MP총괄<br />
+                연락처: 02-1588-0306
+              </div>
+            </div>
             <div className="flex gap-3 items-start cursor-pointer">
               <input
                 type="checkbox" id="agreed"
@@ -104,7 +127,7 @@ const ContactForm = () => {
                 className="mt-1 w-5 h-5 rounded border-white/10 text-blue-900 focus:ring-blue-500 bg-white/5"
               />
               <label htmlFor="agreed" className="text-sm text-gray-400 leading-snug">
-                개인정보 수집 및 이용에 동의합니다. (수집항목: 성함, 연락처 / 목적: N잡 파트너 가입 상담 안내 / 보유기간: 상담 완료 후 1년)
+                개인정보 수집 및 이용에 동의합니다.
               </label>
             </div>
             <button
