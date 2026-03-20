@@ -6,7 +6,7 @@ const Hero = () => (
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
       <div className="flex-1 space-y-6">
         <div className="inline-block bg-blue-50 text-blue-700 px-4 py-1 rounded-full text-sm font-bold">
-          커리어 우먼을 위한 스마트한 부업
+          직장인·주부를 위한 스마트한 부업
         </div>
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           퇴근 후,<br />
@@ -29,9 +29,9 @@ const Hero = () => (
       </div>
       <div className="flex-1 relative">
         <div className="absolute -inset-4 bg-blue-100 rounded-2xl rotate-3 -z-10"></div>
-        <img 
-          src={heroImg} 
-          alt="Hero" 
+        <img
+          src={heroImg}
+          alt="Hero"
           className="rounded-2xl shadow-2xl w-full h-[600px] object-cover object-top"
         />
       </div>

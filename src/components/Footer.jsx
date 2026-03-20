@@ -13,7 +13,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="flex flex-col justify-between items-start md:items-end gap-4">
-        <div className="text-sm text-gray-400">© Global Finance Sales. All Rights Reserved.</div>
+        <div className="text-sm text-gray-400">© Global FM. All Rights Reserved.</div>
         <div className="text-xs text-gray-400 max-w-md md:text-right">
           해당 보험모집인은 다수의 보험사와 계약 체결 및 대리, 중개하는 보험대리점입니다.
         </div>
