@@ -34,8 +34,8 @@ const Footer: React.FC = () => {
               <h4 className="text-gray-900 font-bold uppercase tracking-widest text-[10px]">Business Contact</h4>
               <div className="space-y-2">
                 <p><span className="font-bold text-gray-700">상호:</span> (주)글로벌금융판매</p>
-                <p><span className="font-bold text-gray-700">주소:</span> 인천광역시 남동구 구월동</p>
-                <p><span className="font-bold text-gray-700">대표번호:</span> 1588-OOOO</p>
+                <p><span className="font-bold text-gray-700">주소:</span> 인천광역시 남동구 구월동 인하로507번길 97, 6층</p>
+                <p><span className="font-bold text-gray-700">대표번호:</span> 1588-0306</p>
               </div>
             </div>
             <div className="space-y-4">
