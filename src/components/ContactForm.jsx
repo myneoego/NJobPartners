@@ -44,8 +44,8 @@ const ContactForm = () => {
     const templateParams = {
       name: formData.name,
       phone: formatPhoneNumber(formData.phone),
-      subject: `[N잡 파트너스 간편 지원]${formData.name}`,
-      from_name: 'N잡 파트너스'
+      subject: `[보험투잡러 간편 지원]${formData.name}`,
+      from_name: '보험투잡러'
     };
 
     try {
@@ -69,7 +69,7 @@ const ContactForm = () => {
     <section id="apply" className="py-24 px-4 bg-[#0f172a] text-white">
       <div className="max-w-3xl mx-auto text-center space-y-12">
         <div className="space-y-4">
-          <h2 className="text-4xl font-bold">N잡 파트너스 간편지원</h2>
+          <h2 className="text-4xl font-bold">보험투잡러 간편지원</h2>
           <p className="text-gray-400">성함과 연락처만 남겨주시면 자세한 안내를 위해 상담원이 연락드립니다.</p>
         </div>
         <form onSubmit={handleSubmit} className="bg-white/5 p-8 md:p-12 rounded-3xl border border-white/10 backdrop-blur-sm space-y-8 text-left">
@@ -102,12 +102,12 @@ const ContactForm = () => {
                 &lt;개인정보 수집 및 이용에 대한 안내&gt;<br /><br />
                 1. 개인정보 수집·이용 목적, 수집항목, 수집방법에 관한 사항<br />
                 가. 개인정보의 수집 및 이용목적<br />
-                글로벌금융판매는 N잡 파트너스 채용 상담을 위해 아래와 같은 최소한의 개인정보를 필수항목으로 수집하고 있습니다.<br />
+                글로벌금융판매는 보험투잡러 채용 상담을 위해 아래와 같은 최소한의 개인정보를 필수항목으로 수집하고 있습니다.<br />
                 나. 수집하는 개인정보 항목<br />
                 ο 필수항목 : 이름, 휴대폰 번호<br />
                 ο 기타 : 서비스 이용과정이나 사업처리 과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.(쿠키, 방문 일시, 서비스 이용 기록)<br />
                 다. 개인정보 수집방법<br />
-                N잡 파트너스 채용 상담 문의 시 입력란에 직접 입력하는 방식<br /><br />
+                보험투잡러 채용 상담 문의 시 입력란에 직접 입력하는 방식<br /><br />
                 2. 개인정보의 보유 및 이용기간, 파기절차 및 방법<br />
                 가. 보유 및 이용기간<br />
                 개인정보의 보유 및 이용 기간 : 동의일로부터 1년<br />
