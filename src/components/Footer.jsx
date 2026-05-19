@@ -9,7 +9,7 @@ const Footer = () => (
           <p>주소: 인천시 남동구 인하로507번길 97, 6층</p>
           <p>사업자 번호: 131-86-16703</p>
           <p>보험대리점 등록번호: 제2009091278호</p>
-          <p>대표번호: <span className="font-bold text-gray-900">1588-0306</span></p>
+          <p>문의전화: <span className="font-bold text-gray-900">010-3273-1319</span></p>
         </div>
       </div>
       <div className="flex flex-col justify-between items-start md:items-end gap-4">
