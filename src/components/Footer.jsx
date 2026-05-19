@@ -6,10 +6,10 @@ const Footer = () => (
       <div className="space-y-4">
         <div className="font-bold text-lg">글로벌금융판매</div>
         <div className="text-sm text-gray-500 space-y-1">
-          <p>주소: 인천시 남동구 구월동</p>
+          <p>주소: 인천시 남동구 구월동 인하로507번길 97, 6층</p>
           <p>사업자 번호: 131-86-16703</p>
           <p>보험대리점 등록번호: 제2009091278호</p>
-          <p>대표번호: <span className="font-bold text-gray-900">1588-OOOO</span></p>
+          <p>대표번호: <span className="font-bold text-gray-900">1588-0306</span></p>
         </div>
       </div>
       <div className="flex flex-col justify-between items-start md:items-end gap-4">
