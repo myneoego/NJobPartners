@@ -3,12 +3,12 @@ import React from 'react';
 const Features = () => (
   <section id="features" className="py-24 bg-gray-50 px-4">
     <div className="max-w-7xl mx-auto text-center space-y-16">
-      <h2 className="text-3xl font-bold">왜 글로벌금융판매 N잡 파트너인가?</h2>
+      <h2 className="text-3xl font-bold">왜 글로벌금융판매 보험투잡러인가?</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white p-10 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-left space-y-6 border border-gray-100">
           <div className="text-4xl">⏰</div>
           <h3 className="text-2xl font-bold">시간은 그대로, 수입만 추가</h3>
-          <p className="text-gray-600 leading-relaxed">근무시간은 그대로 두고, 이미 비어 있는 시간만 활용하는 N잡 형태입니다.</p>
+          <p className="text-gray-600 leading-relaxed">근무시간은 그대로 두고, 이미 비어 있는 시간만 활용하는 투잡 형태입니다.</p>
           <div className="grid grid-cols-2 gap-3 text-sm font-medium">
             <div className="flex items-center gap-2 text-gray-700">✓ 초기비용 부담 제로</div>
             <div className="flex items-center gap-2 text-gray-700">✓ 단계별 교육 지원</div>
